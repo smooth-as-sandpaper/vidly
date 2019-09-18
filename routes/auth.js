@@ -1,6 +1,6 @@
 const { User } = require("../models/user");
 const bcrypt = require("bcrypt");
-const Joi = require("Joi");
+const Joi = require("joi");
 const validate = require('../middleware/validate');
 const PasswordComplexity = require("joi-password-complexity");
 const express = require("express");
