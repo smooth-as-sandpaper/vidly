@@ -30,7 +30,7 @@ const movieSchema = new mongoose.Schema({
 
 const Movie = mongoose.model("Movie", movieSchema);
 
-// Validate that client's request satisfies schema
+// Validate that client's request satisfies movie schema
 function validateMovie(movie) {
   const schema = {
     title: Joi.string()
